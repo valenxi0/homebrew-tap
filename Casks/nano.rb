@@ -4,7 +4,7 @@ cask "nano" do
 
   url "https://github.com/valenxi0/Nano/releases/download/v#{version}/Nano-#{version}.dmg"
   name "Nano"
-  desc "Free, open source Dynamic Island for the Mac notch"
+  desc "Free, open source Dynamic Island for the notch"
   homepage "https://trynano.app/"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "nano" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Nano.app"
 
