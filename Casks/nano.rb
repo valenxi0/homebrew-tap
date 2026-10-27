@@ -1,6 +1,6 @@
 cask "nano" do
-  version "0.1.0"
-  sha256 "376fd66819d5a6f660aa89436968def7060f6313dcdbaf5463d02eb6960b9564"
+  version "0.2.0"
+  sha256 "4745cb2fed1c1041873f5c7b657750fa419d2ac47950027227e49a27a5f5a6a4"
 
   url "https://github.com/valenxi0/Nano/releases/download/v#{version}/Nano-#{version}.dmg"
   name "Nano"
